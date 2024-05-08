@@ -42,6 +42,7 @@ public class JavaStreamExample {
         System.out.println(productPriceList3);
         // iteration filtering
 
+
         Stream.iterate(-999, element->element+1)
                 .filter(element->element%5==0)
                 .limit(5)
